@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('Arrival_station');
             $table->string('Departure_time');
             $table->string('Arrival_time');
-            $table->tinyInteger('Train_Code') ;
+            $table->smallInteger('Train_Code') ;
             $table->tinyInteger('Number_of_carriages');
             $table->boolean('In_time') ;
             $table->boolean('Deleted');
