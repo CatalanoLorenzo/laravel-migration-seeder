@@ -18,7 +18,7 @@ class TrainSeeder extends Seeder
     {
         for ($i = 0; $i < 20; $i++) {
             $train = new Train;
-            $train->Agency = $faker->company() /* randomElements(['Freccia Rossa', 'Regionale', 'Italo', 'Intercity', 'Freccia3000']) */;
+            $train->Agency = $faker->randomElement(['Freccia Rossa', 'Regionale', 'Italo', 'Intercity', 'Freccia3000']);
             $train->Departure_station = $faker->city();
             $train->Arrival_station = $faker->city();
             $train->Departure_time = $faker->time();

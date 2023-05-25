@@ -24,7 +24,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Train {{$train->Train_Code}} of {{$train->Agency}} direct{{$train->Departure_station}}-{{$train->Arrival_station}} </h4>
+                            <h4 class="card-title">Train {{$train->Train_Code}} of {{$train->Agency}} direct {{$train->Departure_station}}-{{$train->Arrival_station}} </h4>
                             <p class="card-text">Start : {{$train->Departure_time}} to {{$train->Departure_station}}</p>
                             <p class="card-text">End : {{$train->Arrival_time}} to {{$train->Arrival_station}}</p>
                             <p class="card-text">Code : {{$train->Train_Code}}</p>
